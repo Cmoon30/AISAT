@@ -1,0 +1,111 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #F8F8F8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #62CDFF;
+  border-radius: 50px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #62CDFF;
+}
+.tcolor{
+  background-color: #62CDFF;
+}
+.scolor{
+  background-color: #F8F8F8;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.a{
+  text-decoration: none;
+  color: black;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 12%;
+  padding: .5% 0 .5%;
+  position: fixed;
+}
+.firstnav{
+  width: 40%;
+}
+.firstnav img{
+  width: 15%;
+}
+.midnav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  width: 40%;
+}
+.hover:hover{
+  border-bottom: 1px white solid;
+}
+.lastnav{
+  width: 5%;
+}
+.news{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 5%;
+  gap: 100px;
+  background: url(/assets/aisat-bg\ 1.png) no-repeat center center;
+  margin: 5% 0 0;
+}
+.newsL{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+}
+.Lholder{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+.flexx{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.circle{
+  background-color: #62CDFF;
+  height: 9px;
+  width: 9px;
+  border-radius: 12px;
+}
+.newsR{
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  overflow: hidden;
+  gap: 20px;
+}
+.rone{
+  width: 100%;
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
